@@ -1,5 +1,8 @@
 #lang eopl
 
+;; Written by Max Shi
+;; 2/5/2019 I pledge my honor that I have abided by the Stevens Honor System
+
 ;; Some basic logic operators, defined in terms of Scheme's built-in 
 ;; and,or,not 
 

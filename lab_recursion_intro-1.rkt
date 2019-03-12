@@ -88,15 +88,10 @@
 ;; (product (list 1 3 5 4)) => 60
 
 ;; Type signature: (product number-list) -> number
-(define (product_helper lst)
-  (if (not(null? lst))
-      (* (car lst)(product_helper(cdr lst)))
-      1
-      ))
 (define (product lst)
   (if (not(null? lst))
-      (product_helper lst)
-      0
+      (* (car lst)(product(cdr lst)))
+      1
       ))
 
 
