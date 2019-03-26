@@ -1,4 +1,9 @@
 #lang eopl
+
+;; Max Shi
+;; CS 135 B 3/12/19
+;; I pledge my honor that I have abided by the Stevens Honor System
+
 ;; At the bottom of the file will be a lot of functions that will be helpful for this lab.
 ;; This lab is a review of relations.
 ;; A relation is a set of unique integer tuples
