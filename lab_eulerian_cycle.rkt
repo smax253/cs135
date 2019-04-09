@@ -1,4 +1,9 @@
 #lang eopl
+
+;; Max Shi
+;; CS 135 B 4/2/19
+;; I pledge my honor that I have abided by the Stevens Honor System
+
 ;; An undirected graph is given as a relation that is symmetric but
 ;; every (a b) and (b a) pair should be treated as equivalent
 ;; vertices will be labelled starting at one and incrementing by one each time.
